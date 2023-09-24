@@ -6,7 +6,7 @@ This is a simple web-based dashboard that allows you to fetch and display inform
 
 Before you can use this dashboard, you need to have the following prerequisites in place:
 
-- An AWS account with EC2 instances.
+- An AWS account.
 - AWS Access Key and Secret Key for authentication.
 
 ## Getting Started
