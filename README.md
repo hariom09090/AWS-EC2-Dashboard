@@ -34,6 +34,10 @@ To get started with the AWS EC2 Dashboard, follow these steps:
 
 - **Display:** The dashboard displays information about your EC2 instances, including Instance ID, Instance Type, Instance State, Public IP Address, Private IP Address, Launch Time, and Operating System.
 
+## Screenshots
+![AWS EC2 Dashboard](EC2-Dashboard1.png)
+![AWS EC2 Dashboard](EC2-Dashboard2.png)
+
 ## Styling
 
 The dashboard is styled using CSS to provide a clean and user-friendly interface.
