@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS EC2 Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>AWS EC2 Dashboard</h1>
+        <form id="credentials-form">
+            <label for="access-key">Access Key:</label>
+            <input type="text" id="access-key" required>
+            <label for="secret-key">Secret Key:</label>
+            <input type="text" id="secret-key" required>
+            <label for="region">Region:</label>
+            <input type="text" id="region" required>
+            <button type="button" id="submit-btn">Fetch EC2 Instances</button>
+        </form>
+        <div id="results" class="hidden">
+        </div>
+    </div>
+
+    <!-- Include the AWS SDK for JavaScript from a content delivery network -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aws-sdk/2.1444.0/aws-sdk.min.js"
+        integrity="sha512-5BagcV9SwKKregyquMuqzYw7nVxtphsdPCiaDSNGk7I/vKdhUSves/d8YP7LXnztlHq4WUTzwIC8e23UcNlwEg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    <!-- Copyright © 2023 Hari Om. All rights reserved. -->
+</body>
+
+</html>
